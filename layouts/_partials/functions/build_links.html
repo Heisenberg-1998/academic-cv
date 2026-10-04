@@ -30,6 +30,7 @@
 
 {{ $links := slice }}
 {{ $seen := newScratch }}
+{{ $seen.SetInMap "set" "__init" true }}
 
 {{/* 1) Author-provided links (array order) */}}
 {{ with $page.Params.links }}
