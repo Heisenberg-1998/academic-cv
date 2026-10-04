@@ -82,6 +82,29 @@ Most academic CVs are static PDFs that get lost in the pile. This is an **always
 
 ## 🚀 Get Started
 
+### Run the Site Locally
+
+Use the following commands in PowerShell to preview and edit the site on your computer:
+
+```powershell
+# Go to the project folder
+Set-Location "D:\Program Files\OneDrive\academic_cv\academic-cv"
+
+# Install JavaScript dependencies (only needed after cloning or when dependencies change)
+pnpm install
+
+# Start the local development server
+pnpm run dev
+```
+
+After the server starts, open [http://localhost:1313](http://localhost:1313) in your browser. Hugo automatically rebuilds the site when you save a content or configuration file, so keep the terminal running while editing in VS Code.
+
+Press `Ctrl+C` in the terminal to stop the server. The project requires **Hugo Extended**, **Node.js**, and **pnpm 10.14.0**. If pnpm is not installed, run:
+
+```powershell
+npm install --global pnpm@10.14.0
+```
+
 ### Step 1: Deploy Your Site
 
 **Option A: Launch in browser** (fastest — no install needed)

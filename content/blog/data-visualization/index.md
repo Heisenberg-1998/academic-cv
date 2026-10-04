@@ -4,6 +4,8 @@ summary: Use popular tools such as HuggingFace, Plotly, Mermaid, and data frames
 date: 2023-10-25
 authors:
   - me
+categories:
+  - Technical Notes
 tags:
   - Hugo
   - Hugo Blox

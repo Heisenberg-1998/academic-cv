@@ -4,6 +4,8 @@ summary: Publish your data science and research directly from Jupyter Notebooks.
 date: 2024-07-15
 authors:
   - me
+categories:
+  - Technical Notes
 tags:
   - Hugo Blox
   - Jupyter

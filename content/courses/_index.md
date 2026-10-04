@@ -3,6 +3,11 @@ title: Courses
 summary: My courses
 type: landing
 
+# Hide the example courses section until real course material is added.
+build:
+  render: never
+  list: never
+
 cascade:
   - target:
       path: '{/courses/*/**}'

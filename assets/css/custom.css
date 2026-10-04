@@ -1,0 +1,6 @@
+/* Give the middle education card a little more room for its longer degree title. */
+@media (min-width: 1280px) {
+  .education-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr) minmax(0, 1fr);
+  }
+}
