@@ -55,7 +55,7 @@
 {{ $name_class := index $name_class_map $name_size | default (index $name_class_map "lg") }}
 
 {{/* Size mappings optimized for 2025 standards: display_size -> [display_px, generation_px] */}}
-{{ $size_map := dict "small" (slice "150" "300") "medium" (slice "200" "400") "large" (slice "320" "640") "xl" (slice "400" "800") "xxl" (slice "500" "1000") }}
+{{ $size_map := dict "small" (slice "150" "300") "medium" (slice "200" "400") "large" (slice "300" "600") "xl" (slice "400" "800") "xxl" (slice "500" "1000") }}
 {{ $size_config := index $size_map $avatar_size | default (index $size_map "large") }}
 {{ $display_size := index $size_config 0 }}
 {{ $generation_size := index $size_config 1 }}
