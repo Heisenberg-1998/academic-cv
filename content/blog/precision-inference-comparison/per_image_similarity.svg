@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" role="img" aria-label="Per-image TF-IDF similarity">
+<rect width="100%" height="100%" fill="white"/>
+<text x="50.0" y="30.0" font-family="Arial,sans-serif" font-size="22" font-weight="500" text-anchor="start" fill="#172332">Per-image TF-IDF cosine similarity</text>
+<line x1="65" y1="420.0" x2="1070" y2="420.0" stroke="#e3e8ee"/>
+<text x="55.0" y="424.0" font-family="Arial,sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#172332">0.0</text>
+<line x1="65" y1="346.0" x2="1070" y2="346.0" stroke="#e3e8ee"/>
+<text x="55.0" y="350.0" font-family="Arial,sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#172332">0.2</text>
+<line x1="65" y1="272.0" x2="1070" y2="272.0" stroke="#e3e8ee"/>
+<text x="55.0" y="276.0" font-family="Arial,sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#172332">0.4</text>
+<line x1="65" y1="198.0" x2="1070" y2="198.0" stroke="#e3e8ee"/>
+<text x="55.0" y="202.0" font-family="Arial,sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#172332">0.6</text>
+<line x1="65" y1="124.0" x2="1070" y2="124.0" stroke="#e3e8ee"/>
+<text x="55.0" y="128.0" font-family="Arial,sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#172332">0.8</text>
+<line x1="65" y1="50.0" x2="1070" y2="50.0" stroke="#e3e8ee"/>
+<text x="55.0" y="54.0" font-family="Arial,sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#172332">1.0</text>
+<polyline points="65.0,148.6 95.5,196.6 125.9,159.2 156.4,175.0 186.8,145.5 217.3,176.2 247.7,148.6 278.2,176.8 308.6,158.9 339.1,142.9 369.5,175.5 400.0,149.8 430.5,183.1 460.9,178.4 491.4,152.3 521.8,193.2 552.3,180.0 582.7,175.8 613.2,163.8 643.6,194.6 674.1,162.1 704.5,154.7 735.0,173.7 765.5,115.8 795.9,153.8 826.4,160.1 856.8,162.6 887.3,171.5 917.7,197.9 948.2,188.7 978.6,173.6 1009.1,198.1 1039.5,163.7 1070.0,188.6" fill="none" stroke="#1677b8" stroke-width="2" stroke-opacity=".85"/>
+<circle cx="65.0" cy="148.6" r="3" fill="#1677b8"><title>JD-POS-001 · NF4–BF16: 0.734</title></circle>
+<circle cx="95.5" cy="196.6" r="3" fill="#1677b8"><title>JD-POS-002 · NF4–BF16: 0.604</title></circle>
+<circle cx="125.9" cy="159.2" r="3" fill="#1677b8"><title>JD-POS-003 · NF4–BF16: 0.705</title></circle>
+<circle cx="156.4" cy="175.0" r="3" fill="#1677b8"><title>JD-POS-004 · NF4–BF16: 0.662</title></circle>
+<circle cx="186.8" cy="145.5" r="3" fill="#1677b8"><title>JD-POS-005 · NF4–BF16: 0.742</title></circle>
+<circle cx="217.3" cy="176.2" r="3" fill="#1677b8"><title>JD-POS-006 · NF4–BF16: 0.659</title></circle>
+<circle cx="247.7" cy="148.6" r="3" fill="#1677b8"><title>JD-POS-007 · NF4–BF16: 0.734</title></circle>
+<circle cx="278.2" cy="176.8" r="3" fill="#1677b8"><title>JD-POS-008 · NF4–BF16: 0.657</title></circle>
+<circle cx="308.6" cy="158.9" r="3" fill="#1677b8"><title>JD-POS-009 · NF4–BF16: 0.706</title></circle>
+<circle cx="339.1" cy="142.9" r="3" fill="#1677b8"><title>JD-POS-010 · NF4–BF16: 0.749</title></circle>
+<circle cx="369.5" cy="175.5" r="3" fill="#1677b8"><title>JD-POS-011 · NF4–BF16: 0.661</title></circle>
+<circle cx="400.0" cy="149.8" r="3" fill="#1677b8"><title>JD-POS-012 · NF4–BF16: 0.730</title></circle>
+<circle cx="430.5" cy="183.1" r="3" fill="#1677b8"><title>JD-POS-013 · NF4–BF16: 0.640</title></circle>
+<circle cx="460.9" cy="178.4" r="3" fill="#1677b8"><title>JD-POS-014 · NF4–BF16: 0.653</title></circle>
+<circle cx="491.4" cy="152.3" r="3" fill="#1677b8"><title>JD-POS-015 · NF4–BF16: 0.724</title></circle>
+<circle cx="521.8" cy="193.2" r="3" fill="#1677b8"><title>JD-POS-016 · NF4–BF16: 0.613</title></circle>
+<circle cx="552.3" cy="180.0" r="3" fill="#1677b8"><title>JD-POS-017 · NF4–BF16: 0.649</title></circle>
+<circle cx="582.7" cy="175.8" r="3" fill="#1677b8"><title>JD-POS-018 · NF4–BF16: 0.660</title></circle>
+<circle cx="613.2" cy="163.8" r="3" fill="#1677b8"><title>JD-POS-019 · NF4–BF16: 0.692</title></circle>
+<circle cx="643.6" cy="194.6" r="3" fill="#1677b8"><title>JD-POS-020 · NF4–BF16: 0.609</title></circle>
+<circle cx="674.1" cy="162.1" r="3" fill="#1677b8"><title>JD-POS-021 · NF4–BF16: 0.697</title></circle>
+<circle cx="704.5" cy="154.7" r="3" fill="#1677b8"><title>JD-POS-022 · NF4–BF16: 0.717</title></circle>
+<circle cx="735.0" cy="173.7" r="3" fill="#1677b8"><title>JD-POS-023 · NF4–BF16: 0.666</title></circle>
+<circle cx="765.5" cy="115.8" r="3" fill="#1677b8"><title>JD-POS-024 · NF4–BF16: 0.822</title></circle>
+<circle cx="795.9" cy="153.8" r="3" fill="#1677b8"><title>JD-POS-025 · NF4–BF16: 0.720</title></circle>
+<circle cx="826.4" cy="160.1" r="3" fill="#1677b8"><title>JD-POS-026 · NF4–BF16: 0.702</title></circle>
+<circle cx="856.8" cy="162.6" r="3" fill="#1677b8"><title>JD-POS-027 · NF4–BF16: 0.696</title></circle>
+<circle cx="887.3" cy="171.5" r="3" fill="#1677b8"><title>JD-POS-028 · NF4–BF16: 0.671</title></circle>
+<circle cx="917.7" cy="197.9" r="3" fill="#1677b8"><title>JD-POS-029 · NF4–BF16: 0.600</title></circle>
+<circle cx="948.2" cy="188.7" r="3" fill="#1677b8"><title>JD-POS-030 · NF4–BF16: 0.625</title></circle>
+<circle cx="978.6" cy="173.6" r="3" fill="#1677b8"><title>JD-POS-031 · NF4–BF16: 0.666</title></circle>
+<circle cx="1009.1" cy="198.1" r="3" fill="#1677b8"><title>JD-POS-032 · NF4–BF16: 0.600</title></circle>
+<circle cx="1039.5" cy="163.7" r="3" fill="#1677b8"><title>JD-POS-033 · NF4–BF16: 0.693</title></circle>
+<circle cx="1070.0" cy="188.6" r="3" fill="#1677b8"><title>JD-POS-034 · NF4–BF16: 0.625</title></circle>
+<polyline points="65.0,164.1 95.5,183.6 125.9,148.1 156.4,175.0 186.8,143.8 217.3,180.6 247.7,155.4 278.2,174.8 308.6,183.6 339.1,137.9 369.5,143.2 400.0,163.5 430.5,183.1 460.9,169.1 491.4,156.8 521.8,195.6 552.3,173.9 582.7,179.9 613.2,173.0 643.6,214.4 674.1,159.1 704.5,159.9 735.0,172.7 765.5,137.9 795.9,164.2 826.4,164.4 856.8,197.1 887.3,149.6 917.7,195.9 948.2,153.4 978.6,185.4 1009.1,198.1 1039.5,174.3 1070.0,190.1" fill="none" stroke="#6e4ab3" stroke-width="2" stroke-opacity=".85"/>
+<circle cx="65.0" cy="164.1" r="3" fill="#6e4ab3"><title>JD-POS-001 · NF4–FP32: 0.692</title></circle>
+<circle cx="95.5" cy="183.6" r="3" fill="#6e4ab3"><title>JD-POS-002 · NF4–FP32: 0.639</title></circle>
+<circle cx="125.9" cy="148.1" r="3" fill="#6e4ab3"><title>JD-POS-003 · NF4–FP32: 0.735</title></circle>
+<circle cx="156.4" cy="175.0" r="3" fill="#6e4ab3"><title>JD-POS-004 · NF4–FP32: 0.662</title></circle>
+<circle cx="186.8" cy="143.8" r="3" fill="#6e4ab3"><title>JD-POS-005 · NF4–FP32: 0.747</title></circle>
+<circle cx="217.3" cy="180.6" r="3" fill="#6e4ab3"><title>JD-POS-006 · NF4–FP32: 0.647</title></circle>
+<circle cx="247.7" cy="155.4" r="3" fill="#6e4ab3"><title>JD-POS-007 · NF4–FP32: 0.715</title></circle>
+<circle cx="278.2" cy="174.8" r="3" fill="#6e4ab3"><title>JD-POS-008 · NF4–FP32: 0.663</title></circle>
+<circle cx="308.6" cy="183.6" r="3" fill="#6e4ab3"><title>JD-POS-009 · NF4–FP32: 0.639</title></circle>
+<circle cx="339.1" cy="137.9" r="3" fill="#6e4ab3"><title>JD-POS-010 · NF4–FP32: 0.762</title></circle>
+<circle cx="369.5" cy="143.2" r="3" fill="#6e4ab3"><title>JD-POS-011 · NF4–FP32: 0.748</title></circle>
+<circle cx="400.0" cy="163.5" r="3" fill="#6e4ab3"><title>JD-POS-012 · NF4–FP32: 0.693</title></circle>
+<circle cx="430.5" cy="183.1" r="3" fill="#6e4ab3"><title>JD-POS-013 · NF4–FP32: 0.640</title></circle>
+<circle cx="460.9" cy="169.1" r="3" fill="#6e4ab3"><title>JD-POS-014 · NF4–FP32: 0.678</title></circle>
+<circle cx="491.4" cy="156.8" r="3" fill="#6e4ab3"><title>JD-POS-015 · NF4–FP32: 0.711</title></circle>
+<circle cx="521.8" cy="195.6" r="3" fill="#6e4ab3"><title>JD-POS-016 · NF4–FP32: 0.607</title></circle>
+<circle cx="552.3" cy="173.9" r="3" fill="#6e4ab3"><title>JD-POS-017 · NF4–FP32: 0.665</title></circle>
+<circle cx="582.7" cy="179.9" r="3" fill="#6e4ab3"><title>JD-POS-018 · NF4–FP32: 0.649</title></circle>
+<circle cx="613.2" cy="173.0" r="3" fill="#6e4ab3"><title>JD-POS-019 · NF4–FP32: 0.668</title></circle>
+<circle cx="643.6" cy="214.4" r="3" fill="#6e4ab3"><title>JD-POS-020 · NF4–FP32: 0.556</title></circle>
+<circle cx="674.1" cy="159.1" r="3" fill="#6e4ab3"><title>JD-POS-021 · NF4–FP32: 0.705</title></circle>
+<circle cx="704.5" cy="159.9" r="3" fill="#6e4ab3"><title>JD-POS-022 · NF4–FP32: 0.703</title></circle>
+<circle cx="735.0" cy="172.7" r="3" fill="#6e4ab3"><title>JD-POS-023 · NF4–FP32: 0.668</title></circle>
+<circle cx="765.5" cy="137.9" r="3" fill="#6e4ab3"><title>JD-POS-024 · NF4–FP32: 0.762</title></circle>
+<circle cx="795.9" cy="164.2" r="3" fill="#6e4ab3"><title>JD-POS-025 · NF4–FP32: 0.691</title></circle>
+<circle cx="826.4" cy="164.4" r="3" fill="#6e4ab3"><title>JD-POS-026 · NF4–FP32: 0.691</title></circle>
+<circle cx="856.8" cy="197.1" r="3" fill="#6e4ab3"><title>JD-POS-027 · NF4–FP32: 0.602</title></circle>
+<circle cx="887.3" cy="149.6" r="3" fill="#6e4ab3"><title>JD-POS-028 · NF4–FP32: 0.731</title></circle>
+<circle cx="917.7" cy="195.9" r="3" fill="#6e4ab3"><title>JD-POS-029 · NF4–FP32: 0.606</title></circle>
+<circle cx="948.2" cy="153.4" r="3" fill="#6e4ab3"><title>JD-POS-030 · NF4–FP32: 0.721</title></circle>
+<circle cx="978.6" cy="185.4" r="3" fill="#6e4ab3"><title>JD-POS-031 · NF4–FP32: 0.634</title></circle>
+<circle cx="1009.1" cy="198.1" r="3" fill="#6e4ab3"><title>JD-POS-032 · NF4–FP32: 0.600</title></circle>
+<circle cx="1039.5" cy="174.3" r="3" fill="#6e4ab3"><title>JD-POS-033 · NF4–FP32: 0.664</title></circle>
+<circle cx="1070.0" cy="190.1" r="3" fill="#6e4ab3"><title>JD-POS-034 · NF4–FP32: 0.621</title></circle>
+<polyline points="65.0,122.9 95.5,65.5 125.9,60.7 156.4,50.0 186.8,80.0 217.3,79.0 247.7,58.1 278.2,101.8 308.6,142.8 339.1,54.5 369.5,124.7 400.0,69.4 430.5,50.0 460.9,102.2 491.4,78.0 521.8,91.6 552.3,100.5 582.7,105.9 613.2,61.3 643.6,166.5 674.1,99.9 704.5,101.0 735.0,107.2 765.5,132.0 795.9,128.8 826.4,87.3 856.8,131.4 887.3,78.5 917.7,127.2 948.2,115.4 978.6,115.8 1009.1,50.0 1039.5,162.0 1070.0,153.1" fill="none" stroke="#bc6900" stroke-width="2" stroke-opacity=".85"/>
+<circle cx="65.0" cy="122.9" r="3" fill="#bc6900"><title>JD-POS-001 · BF16–FP32: 0.803</title></circle>
+<circle cx="95.5" cy="65.5" r="3" fill="#bc6900"><title>JD-POS-002 · BF16–FP32: 0.958</title></circle>
+<circle cx="125.9" cy="60.7" r="3" fill="#bc6900"><title>JD-POS-003 · BF16–FP32: 0.971</title></circle>
+<circle cx="156.4" cy="50.0" r="3" fill="#bc6900"><title>JD-POS-004 · BF16–FP32: 1.000</title></circle>
+<circle cx="186.8" cy="80.0" r="3" fill="#bc6900"><title>JD-POS-005 · BF16–FP32: 0.919</title></circle>
+<circle cx="217.3" cy="79.0" r="3" fill="#bc6900"><title>JD-POS-006 · BF16–FP32: 0.922</title></circle>
+<circle cx="247.7" cy="58.1" r="3" fill="#bc6900"><title>JD-POS-007 · BF16–FP32: 0.978</title></circle>
+<circle cx="278.2" cy="101.8" r="3" fill="#bc6900"><title>JD-POS-008 · BF16–FP32: 0.860</title></circle>
+<circle cx="308.6" cy="142.8" r="3" fill="#bc6900"><title>JD-POS-009 · BF16–FP32: 0.749</title></circle>
+<circle cx="339.1" cy="54.5" r="3" fill="#bc6900"><title>JD-POS-010 · BF16–FP32: 0.988</title></circle>
+<circle cx="369.5" cy="124.7" r="3" fill="#bc6900"><title>JD-POS-011 · BF16–FP32: 0.798</title></circle>
+<circle cx="400.0" cy="69.4" r="3" fill="#bc6900"><title>JD-POS-012 · BF16–FP32: 0.948</title></circle>
+<circle cx="430.5" cy="50.0" r="3" fill="#bc6900"><title>JD-POS-013 · BF16–FP32: 1.000</title></circle>
+<circle cx="460.9" cy="102.2" r="3" fill="#bc6900"><title>JD-POS-014 · BF16–FP32: 0.859</title></circle>
+<circle cx="491.4" cy="78.0" r="3" fill="#bc6900"><title>JD-POS-015 · BF16–FP32: 0.924</title></circle>
+<circle cx="521.8" cy="91.6" r="3" fill="#bc6900"><title>JD-POS-016 · BF16–FP32: 0.888</title></circle>
+<circle cx="552.3" cy="100.5" r="3" fill="#bc6900"><title>JD-POS-017 · BF16–FP32: 0.864</title></circle>
+<circle cx="582.7" cy="105.9" r="3" fill="#bc6900"><title>JD-POS-018 · BF16–FP32: 0.849</title></circle>
+<circle cx="613.2" cy="61.3" r="3" fill="#bc6900"><title>JD-POS-019 · BF16–FP32: 0.969</title></circle>
+<circle cx="643.6" cy="166.5" r="3" fill="#bc6900"><title>JD-POS-020 · BF16–FP32: 0.685</title></circle>
+<circle cx="674.1" cy="99.9" r="3" fill="#bc6900"><title>JD-POS-021 · BF16–FP32: 0.865</title></circle>
+<circle cx="704.5" cy="101.0" r="3" fill="#bc6900"><title>JD-POS-022 · BF16–FP32: 0.862</title></circle>
+<circle cx="735.0" cy="107.2" r="3" fill="#bc6900"><title>JD-POS-023 · BF16–FP32: 0.846</title></circle>
+<circle cx="765.5" cy="132.0" r="3" fill="#bc6900"><title>JD-POS-024 · BF16–FP32: 0.778</title></circle>
+<circle cx="795.9" cy="128.8" r="3" fill="#bc6900"><title>JD-POS-025 · BF16–FP32: 0.787</title></circle>
+<circle cx="826.4" cy="87.3" r="3" fill="#bc6900"><title>JD-POS-026 · BF16–FP32: 0.899</title></circle>
+<circle cx="856.8" cy="131.4" r="3" fill="#bc6900"><title>JD-POS-027 · BF16–FP32: 0.780</title></circle>
+<circle cx="887.3" cy="78.5" r="3" fill="#bc6900"><title>JD-POS-028 · BF16–FP32: 0.923</title></circle>
+<circle cx="917.7" cy="127.2" r="3" fill="#bc6900"><title>JD-POS-029 · BF16–FP32: 0.791</title></circle>
+<circle cx="948.2" cy="115.4" r="3" fill="#bc6900"><title>JD-POS-030 · BF16–FP32: 0.823</title></circle>
+<circle cx="978.6" cy="115.8" r="3" fill="#bc6900"><title>JD-POS-031 · BF16–FP32: 0.822</title></circle>
+<circle cx="1009.1" cy="50.0" r="3" fill="#bc6900"><title>JD-POS-032 · BF16–FP32: 1.000</title></circle>
+<circle cx="1039.5" cy="162.0" r="3" fill="#bc6900"><title>JD-POS-033 · BF16–FP32: 0.697</title></circle>
+<circle cx="1070.0" cy="153.1" r="3" fill="#bc6900"><title>JD-POS-034 · BF16–FP32: 0.721</title></circle>
+<text x="65.0" y="445.0" font-family="Arial,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#172332">JD-POS-001</text>
+<text x="217.3" y="445.0" font-family="Arial,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#172332">JD-POS-006</text>
+<text x="369.5" y="445.0" font-family="Arial,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#172332">JD-POS-011</text>
+<text x="521.8" y="445.0" font-family="Arial,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#172332">JD-POS-016</text>
+<text x="674.1" y="445.0" font-family="Arial,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#172332">JD-POS-021</text>
+<text x="826.4" y="445.0" font-family="Arial,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#172332">JD-POS-026</text>
+<text x="978.6" y="445.0" font-family="Arial,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#172332">JD-POS-031</text>
+<text x="567.5" y="472.0" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#172332">Image ID (ordered alphabetically)</text>
+</svg>
