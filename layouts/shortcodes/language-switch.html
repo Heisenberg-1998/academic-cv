@@ -1,5 +1,6 @@
 {{ $href := .Get "href" }}
 {{ $label := .Get "label" }}
+{{ $href = strings.TrimPrefix "/" $href }}
 <div class="not-prose my-5">
   <a
     href="{{ $href | relURL }}"

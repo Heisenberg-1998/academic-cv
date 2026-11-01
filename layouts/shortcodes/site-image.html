@@ -1,0 +1,4 @@
+{{ $src := .Get "src" | default (.Get 0) }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $src = strings.TrimPrefix "/" $src }}
+<img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">

@@ -60,7 +60,7 @@ QLoRA 是一种广为人知的*方法*，而不是 NF4 或 Double Quantization �
 
 图像集包含结构耐火实验室照料的小狗 **JinDouer** 的 34 张照片。照片采集于实验室及其周边环境，记录了 JinDouer 在不同姿势、拍摄视角和日常场景中的状态。使用同一对象但具有多种可见姿态的图像，可以在主要主体身份保持不变的前提下，观察数值精度变化是否会影响模型生成的描述。
 
-<img src="/precision-inference-comparison/jindouer-photo-overview.png" alt="JinDouer 图像样本总览，展示不同姿势、视角和场景。" loading="lazy">
+{{< site-image src="precision-inference-comparison/jindouer-photo-overview.png" alt="JinDouer 图像样本总览，展示不同姿势、视角和场景。" >}}
 
 *图 1. JinDouer 图像集中的部分照片总览。*
 
