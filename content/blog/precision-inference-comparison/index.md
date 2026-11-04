@@ -56,7 +56,7 @@ The experiment used 34 fixed images of the same subject and ran the same model t
 
 ### Image source
 
-The image set contains 34 photographs of **JinDouer**, a dog cared for by the Structural Fire Laboratory. The photographs were collected in and around the laboratory and capture JinDouer in a range of poses, viewpoints, and everyday settings. Using one subject with varied visible postures makes it possible to examine whether changes in numerical precision affect the model's descriptions while the identity of the main subject remains constant.
+The image set contains 34 photographs of **JinDouer**, a dog cared for by the Structural Fire Laboratory at SCUT. The photographs were collected in and around the laboratory and capture JinDouer in a range of poses, viewpoints, and everyday settings. Using one subject with varied visible postures makes it possible to examine whether changes in numerical precision affect the model's descriptions while the identity of the main subject remains constant.
 
 {{< site-image src="precision-inference-comparison/jindouer-photo-overview.png" alt="A visual overview of selected JinDouer photographs, illustrating variation in pose, viewpoint, and setting." >}}
 
@@ -110,7 +110,7 @@ The distribution shows that the BF16–FP32 comparison remained relatively high 
 
 ## Interactive comparison dashboard
 
-The following dashboard presents the same experiment in a browsable layout. It includes summary cards, runtime and memory charts, per-image navigation, and a side-by-side comparison of the three generated captions. The 34 experiment images are included as static site assets, and the dashboard also keeps its local image picker for optional replacement images.
+The following dashboard presents the same experiment in a browsable layout. It includes summary cards, runtime and memory charts, per-image navigation, and a side-by-side comparison of the three generated captions. All 34 experiment images are included as static site assets.
 
 {{< precision-dashboard >}}
 
