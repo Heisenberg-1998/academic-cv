@@ -56,7 +56,7 @@ The experiment used 34 fixed images of the same subject and ran the same model t
 
 ### Image source
 
-The image set contains 34 photographs of **JinDouer**, a dog cared for by the Structural Fire Laboratory at SCUT. The photographs were collected in and around the laboratory and capture JinDouer in a range of poses, viewpoints, and everyday settings. Using one subject with varied visible postures makes it possible to examine whether changes in numerical precision affect the model's descriptions while the identity of the main subject remains constant.
+The image set contains 34 photographs of our favourite puppy, **JinDouer**. The photographs capture JinDouer in a range of poses, viewpoints, and everyday settings. Using one subject with varied visible postures makes it possible to examine whether changes in numerical precision affect the model's descriptions while the identity of the main subject remains constant.
 
 {{< site-image src="precision-inference-comparison/jindouer-photo-overview.png" alt="A visual overview of selected JinDouer photographs, illustrating variation in pose, viewpoint, and setting." >}}
 

@@ -13,11 +13,10 @@ status:
   icon: "☕️"
 role: PhD Student
 bio: |
-  I am a PhD student at South China University of Technology, focusing on AI-assisted
-  post-fire structural assessment. I completed my MSc in Structural and Fire
-  Engineering at the University of Edinburgh. My interests span structural fire
-  engineering, fire dynamics simulation, and robotics for post-fire structural
-  assessment.
+  I am a PhD student at South China University of Technology, focusing on AI- and
+  robotics-assisted post-fire structural assessment. I completed my MSc in Structural
+  and Fire Engineering at the University of Edinburgh. My interests span structural
+  fire engineering and fire dynamics simulation.
 
 affiliations:
   - name: South China University of Technology
