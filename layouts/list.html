@@ -10,8 +10,12 @@
 {{ $view := .Params.view | default "card" }}
 {{ $block := . }}
 {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
+{{ $columns := .Params.columns | default 2 }}
+{{ if lt (len $paginator.Pages) $columns }}
+  {{ $columns = len $paginator.Pages }}
+{{ end }}
 {{ $config := dict
-  "columns" (.Params.columns | default 2)
+  "columns" $columns
   "len" (len $paginator.Pages)
   "fill_image" (.Params.fill_image | default true)
   "show_date" (.Params.show_date | default true)
