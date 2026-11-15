@@ -11,11 +11,8 @@ tags:
   - Quantization
   - LLMs
   - GPU Inference
-cover:
-  icon:
-    name: "🔬"
 image:
-  caption: "Output-consistency analysis for a fixed multimodal captioning task."
+  caption: "The same puppy image, captioned using NF4, BF16, and FP32 inference."
 ---
 
 When a vision-language model runs on a GPU, the same image can produce slightly different text when its numerical precision changes. This post documents a small, controlled experiment with **Qwen3-VL-4B-Instruct**, a multimodal model that accepts both images and text.
