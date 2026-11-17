@@ -67,3 +67,6 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+# Local-only private blog previews (never commit data or generated pages)
+/_private/
