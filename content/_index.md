@@ -39,9 +39,7 @@ sections:
       title: Research
       subtitle: ''
       text: |-
-        My research lies at the intersection of structural fire engineering and data-driven computational methods. I study the fire resistance and post-fire behaviour of concrete and composite structures, with interests in high-temperature material behaviour, structural assessment, and AI-enabled prediction.
-
-        See my [Google Scholar profile](https://scholar.google.com/citations?user=l23iS4EAAAAJ&hl=zh-TW) for publications.
+        For details of my research and publications, see my [Google Scholar profile](https://scholar.google.com/citations?user=l23iS4EAAAAJ&hl=zh-TW).
     design:
       columns: '1'
   - block: cta-card

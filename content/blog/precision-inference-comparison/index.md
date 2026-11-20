@@ -12,6 +12,7 @@ tags:
   - LLMs
   - GPU Inference
 image:
+  focal_point: Left
   caption: "The same puppy image, captioned using NF4, BF16, and FP32 inference."
 ---
 

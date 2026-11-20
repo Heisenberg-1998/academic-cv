@@ -14,6 +14,7 @@ tags:
 build:
   list: never
 image:
+  focal_point: Left
   caption: "同一张小狗照片在 NF4、BF16 与 FP32 推理精度下生成的描述。"
 ---
 
