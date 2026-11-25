@@ -36,15 +36,19 @@ This article develops these ideas step by step, explains the t-SNE objective, an
 
 Let the high-dimensional observations be
 
+{{< math >}}
 $$
 X=\{x_1,x_2,\ldots,x_n\}, \qquad x_i\in\mathbb{R}^{D},
 $$
+{{< /math >}}
 
 where $x_i$ may be the text embedding of a question or a knowledge unit. We want to obtain low-dimensional coordinates
 
+{{< math >}}
 $$
 Y=\{y_1,y_2,\ldots,y_n\}, \qquad y_i\in\mathbb{R}^{2}.
 $$
+{{< /math >}}
 
 A seemingly direct approach would require every low-dimensional distance to reproduce its high-dimensional counterpart. In general, however, all high-dimensional distances cannot be compressed into a plane without distortion. t-SNE therefore asks a different question:
 
@@ -56,6 +60,7 @@ The method does not try to reproduce every distance exactly. Its main concern is
 
 For the neighborhood centered on $x_i$, t-SNE uses a Gaussian kernel to define the conditional probability that $x_j$ is selected as a neighbor:
 
+{{< math >}}
 $$
 p_{j\mid i}
 =
@@ -67,6 +72,7 @@ p_{j\mid i}
 },
 \qquad p_{i\mid i}=0.
 $$
+{{< /math >}}
 
 This expression has a useful interpretation:
 
@@ -76,9 +82,11 @@ This expression has a useful interpretation:
 
 t-SNE then symmetrizes the conditional probabilities:
 
+{{< math >}}
 $$
 p_{ij}=\frac{p_{j\mid i}+p_{i\mid j}}{2n}.
 $$
+{{< /math >}}
 
 The resulting $P=\{p_{ij}\}$ describes the neighbor-probability distribution in the original space.
 
@@ -86,15 +94,19 @@ The resulting $P=\{p_{ij}\}$ describes the neighbor-probability distribution in 
 
 t-SNE does not require every point to use the same $\sigma_i$. It adjusts each value through a binary search until the conditional distribution reaches the user-specified perplexity:
 
+{{< math >}}
 $$
 \operatorname{Perp}(P_i)=2^{H(P_i)},
 $$
+{{< /math >}}
 
 where
 
+{{< math >}}
 $$
 H(P_i)=-\sum_j p_{j\mid i}\log_2 p_{j\mid i}.
 $$
+{{< /math >}}
 
 Perplexity is often interpreted as the effective number of neighbors considered by the algorithm, although it is not a literal neighbor count. A small value emphasizes highly local relationships, whereas a larger value considers a broader neighborhood. The selected value can therefore change the layout substantially.
 
@@ -106,6 +118,7 @@ Perplexity is often interpreted as the effective number of neighbors considered 
 
 In the low-dimensional space, t-SNE defines similarity with a Student-t distribution with one degree of freedom:
 
+{{< math >}}
 $$
 q_{ij}
 =
@@ -117,6 +130,7 @@ q_{ij}
 },
 \qquad q_{ii}=0.
 $$
+{{< /math >}}
 
 The Student-t distribution has a heavier tail than a Gaussian distribution. As distance increases, its similarity decreases more slowly:
 
@@ -135,6 +149,7 @@ We now have two distributions:
 
 t-SNE makes $Q$ approximate $P$ by minimizing the Kullback--Leibler divergence:
 
+{{< math >}}
 $$
 \mathcal{L}
 =
@@ -142,6 +157,7 @@ KL(P\parallel Q)
 =
 \sum_{i\ne j}p_{ij}\log\frac{p_{ij}}{q_{ij}}.
 $$
+{{< /math >}}
 
 The objective can be understood through two types of mismatch.
 
@@ -155,9 +171,11 @@ When $p_{ij}$ is small, the corresponding pair receives less direct weight in th
 
 This asymmetry helps explain why t-SNE often reveals local clusters but does not guarantee reliable global geometry. KL divergence itself is asymmetric:
 
+{{< math >}}
 $$
 KL(P\parallel Q)\ne KL(Q\parallel P).
 $$
+{{< /math >}}
 
 By choosing $KL(P\parallel Q)$, t-SNE treats $P$ as the reference distribution to preserve and $Q$ as the low-dimensional approximation to optimize.
 
@@ -165,6 +183,7 @@ By choosing $KL(P\parallel Q)$, t-SNE treats $P$ as the reference distribution t
 
 Differentiating the objective with respect to $y_i$ gives
 
+{{< math >}}
 $$
 \frac{\partial \mathcal{L}}{\partial y_i}
 =
@@ -173,6 +192,7 @@ $$
 (y_i-y_j)
 \left(1+\lVert y_i-y_j\rVert^2\right)^{-1}.
 $$
+{{< /math >}}
 
 This can be interpreted as a balance between attraction and repulsion:
 
@@ -333,9 +353,11 @@ Before publishing a t-SNE figure, check the following:
 
 t-SNE is more than a procedure that compresses high-dimensional coordinates into a plane. It first represents both the high-dimensional and low-dimensional spaces as neighbor-probability distributions, and then minimizes
 
+{{< math >}}
 $$
 KL(P\parallel Q)
 $$
+{{< /math >}}
 
 to preserve local neighborhoods. Gaussian probabilities describe neighbors in the original space, the heavy-tailed Student-t distribution helps reduce crowding in the map, and the KL-divergence objective places particular emphasis on not separating genuine neighbors.
 

@@ -38,15 +38,19 @@ build:
 
 设高维数据为
 
+{{< math >}}
 $$
 X=\{x_1,x_2,\ldots,x_n\}, \qquad x_i\in\mathbb{R}^{D},
 $$
+{{< /math >}}
 
 其中，$x_i$ 可以是一个问题或知识单元的文本 embedding。我们的目标是获得低维坐标
 
+{{< math >}}
 $$
 Y=\{y_1,y_2,\ldots,y_n\}, \qquad y_i\in\mathbb{R}^{2}.
 $$
+{{< /math >}}
 
 一种直接思路是要求所有低维距离都等于原始高维距离。然而，高维空间中的所有距离通常无法同时、无失真地压缩到二维平面。t-SNE 因此换了一个问题：
 
@@ -58,6 +62,7 @@ $$
 
 对于以 $x_i$ 为中心的局部邻域，t-SNE 使用高斯核定义 $x_j$ 成为其邻居的条件概率：
 
+{{< math >}}
 $$
 p_{j\mid i}
 =
@@ -69,6 +74,7 @@ p_{j\mid i}
 },
 \qquad p_{i\mid i}=0.
 $$
+{{< /math >}}
 
 这里：
 
@@ -78,9 +84,11 @@ $$
 
 随后，t-SNE 将条件概率对称化：
 
+{{< math >}}
 $$
 p_{ij}=\frac{p_{j\mid i}+p_{i\mid j}}{2n}.
 $$
+{{< /math >}}
 
 这样得到的 $P=\{p_{ij}\}$ 可以理解为高维空间中的邻居概率分布。
 
@@ -88,15 +96,19 @@ $$
 
 t-SNE 不要求所有数据点使用相同的 $\sigma_i$。算法通过二分搜索调整每个 $\sigma_i$，使其条件概率分布达到用户设定的 perplexity：
 
+{{< math >}}
 $$
 \operatorname{Perp}(P_i)=2^{H(P_i)},
 $$
+{{< /math >}}
 
 其中
 
+{{< math >}}
 $$
 H(P_i)=-\sum_j p_{j\mid i}\log_2 p_{j\mid i}.
 $$
+{{< /math >}}
 
 Perplexity 可以近似理解为算法关注的“有效邻居数量”，但它不是严格的邻居个数。较小的 perplexity 更强调非常局部的关系，较大的 perplexity 会考虑更宽的邻域。因此，perplexity 变化可能显著改变最终布局。
 
@@ -108,6 +120,7 @@ Perplexity 可以近似理解为算法关注的“有效邻居数量”，但它
 
 在低维空间中，t-SNE 使用自由度为 1 的 Student-t 分布定义相似度：
 
+{{< math >}}
 $$
 q_{ij}
 =
@@ -119,6 +132,7 @@ q_{ij}
 },
 \qquad q_{ii}=0.
 $$
+{{< /math >}}
 
 Student-t 分布的尾部比高斯分布更重。随着距离增大，它的相似度衰减得更慢：
 
@@ -137,6 +151,7 @@ Student-t 分布的尾部比高斯分布更重。随着距离增大，它的相�
 
 t-SNE 通过最小化 Kullback--Leibler divergence，使 $Q$ 尽量接近 $P$：
 
+{{< math >}}
 $$
 \mathcal{L}
 =
@@ -144,6 +159,7 @@ KL(P\parallel Q)
 =
 \sum_{i\ne j}p_{ij}\log\frac{p_{ij}}{q_{ij}}.
 $$
+{{< /math >}}
 
 这个目标函数可以从两种错误来理解。
 
@@ -151,9 +167,11 @@ $$
 
 如果两个点在高维空间中非常接近，$p_{ij}$ 会较大。如果它们在低维空间中相距很远，$q_{ij}$ 会很小，于是
 
+{{< math >}}
 $$
 p_{ij}\log\frac{p_{ij}}{q_{ij}}
 $$
+{{< /math >}}
 
 会产生较大的损失。优化过程因而会把这两个点拉近。
 
@@ -165,9 +183,11 @@ $$
 
 需要注意，KL divergence 不对称：
 
+{{< math >}}
 $$
 KL(P\parallel Q)\ne KL(Q\parallel P).
 $$
+{{< /math >}}
 
 t-SNE 选择 $KL(P\parallel Q)$，意味着高维分布 $P$ 是需要保留的参考，而低维分布 $Q$ 是被优化的近似。
 
@@ -175,6 +195,7 @@ t-SNE 选择 $KL(P\parallel Q)$，意味着高维分布 $P$ 是需要保留的�
 
 对低维坐标 $y_i$ 求导，可得到：
 
+{{< math >}}
 $$
 \frac{\partial \mathcal{L}}{\partial y_i}
 =
@@ -183,6 +204,7 @@ $$
 (y_i-y_j)
 \left(1+\lVert y_i-y_j\rVert^2\right)^{-1}.
 $$
+{{< /math >}}
 
 可以把它直观理解为吸引力与排斥力的共同作用：
 
@@ -344,9 +366,11 @@ t-SNE 是探索性证据，而不是这些指标的替代品。
 
 t-SNE 的核心不是“把高维坐标压缩成二维坐标”，而是先把高维和低维空间都描述成邻居概率分布，再通过最小化
 
+{{< math >}}
 $$
 KL(P\parallel Q)
 $$
+{{< /math >}}
 
 尽量保留高维空间中的局部邻域。高维空间使用高斯概率刻画邻居，低维空间使用重尾 Student-t 分布缓解拥挤问题，而 KL divergence 使优化过程特别重视不要拆散真正的近邻。
 
