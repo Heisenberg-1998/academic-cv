@@ -16,9 +16,13 @@ tags:
 image:
   focal_point: Center
   caption: "相同的高维数据在不同 perplexity 设置下形成不同的 t-SNE 布局。"
+build:
+  list: never
 ---
 
 在文本检索、RAG 和问答数据集研究中，我们经常先使用 embedding 模型把问题、答案或知识单元编码成高维向量。一个 BGE-M3 向量可能包含上千个维度，我们可以计算向量之间的余弦相似度，却无法直接观察这些点在高维空间中的分布。
+
+{{< language-switch href="/blog/understanding-tsne/" label="English" >}}
 
 **t-distributed Stochastic Neighbor Embedding（t-SNE）**提供了一种可视化方法：它把高维向量映射到二维或三维空间，并尽量保留原空间中的局部邻居关系。
 
